@@ -187,3 +187,103 @@ button:hover{
 .footer a:hover{
   text-decoration: underline;
 }
+
+
+/* Responsividade para telas menores que 768px */
+@media (max-width: 768px) {
+
+    .navbar {
+    justify-content: center;
+    padding: 10px;
+    }
+
+    .list-menu {
+    gap: 15px;
+    }
+
+    .btn {
+    padding: 6px 8px;
+    font-size: 12px;
+    }
+
+    .logo {
+    width: 220px;
+    }
+
+    .search-box {
+    width: 90%;
+    }
+
+    .search-input {
+    width: 100%;
+    font-size: 14px;
+    height: 40px;
+    }
+    .search-icon,
+    .keyboard-icon,
+    .mic-icon,
+    .camera-icon {
+    width: 18px;
+    }
+
+    .keyboard-icon {
+    right: 70px;
+    }
+
+    .mic-icon {
+    right: 45px;
+    }
+
+    .camera-icon {
+    right: 20px;
+    }
+
+    .buttons {
+    flex-direction: column;
+    width: 90%;
+    }
+
+    .buttons button {
+    width: 100%;
+    font-size: 13px;
+    }
+
+    .footer-links {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 15px;
+    }
+
+    .footer a {
+    margin-right: 10px;
+    font-size: 13px;
+    }
+    }
+
+/* Responsividade extra (para telas menores que 480px) */
+@media (max-width: 480px) {
+
+  .logo {
+    width: 180px;
+  }
+
+  .search-input {
+    font-size: 13px;
+    height: 38px;
+  }
+
+  .footer-country {
+    text-align: center;
+    padding: 10px;
+  }
+
+  .footer-links {
+    align-items: center;
+  }
+
+  .footer a {
+    display: inline-block;
+    margin: 5px 10px;
+  }
+}
